@@ -1,0 +1,80 @@
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Arial,Helvetica,sans-serif;background:#eef2f7;color:#1f2937;min-height:100vh}.app{width:100%;max-width:900px;min-height:100vh;margin:0 auto;background:#fff;display:flex;flex-direction:column}.header{background:#0f172a;color:#fff;padding:20px 25px;display:flex;align-items:center;gap:15px}.logo{width:52px;height:52px;border-radius:12px;background:#fff;color:#0f172a;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px}.header h1{font-size:21px;margin-bottom:4px}.header p{font-size:13px;opacity:.75}.assistant{flex:1;padding:25px}#chat{width:100%}.bot-message{background:#f1f5f9;border-radius:14px;padding:18px;margin-bottom:20px;line-height:1.55}.bot-message strong{color:#0f172a}.section-title{font-size:21px;font-weight:700;margin-bottom:8px}.form-group{margin-bottom:17px}.form-group label{display:block;font-size:14px;font-weight:600;margin-bottom:7px}.form-group input,.form-group select,.form-group textarea{width:100%;padding:13px 14px;border:1px solid #cbd5e1;border-radius:9px;font-size:15px;outline:none;transition:.2s;background:#fff}.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:#0f172a;box-shadow:0 0 0 2px rgba(15,23,42,.08)}.form-group textarea{min-height:110px;resize:vertical}.buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}button{border:none;border-radius:10px;padding:14px 15px;font-size:14px;font-weight:600;cursor:pointer;transition:.2s}button:hover{transform:translateY(-1px)}.primary-btn{background:#0f172a;color:#fff}.secondary-btn{background:#e2e8f0;color:#1e293b}.menu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.menu-button{text-align:left;background:#fff;border:1px solid #dbe2ea;color:#1e293b;min-height:70px}.menu-button:hover{border-color:#0f172a;background:#f8fafc}.info-box,.warning-box,.success-box{padding:14px;border-radius:7px;margin:15px 0;font-size:14px;line-height:1.5}.info-box{background:#eff6ff;border-left:4px solid #2563eb}.warning-box{background:#fff7ed;border-left:4px solid #ea580c}.success-box{background:#f0fdf4;border-left:4px solid #16a34a}.document-list{list-style:none;margin:15px 0}.document-list li{background:#f8fafc;border:1px solid #e2e8f0;padding:12px;border-radius:8px;margin-bottom:8px}.summary{background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:18px;margin-top:15px}.summary-row{padding:8px 0;border-bottom:1px solid #e2e8f0;font-size:14px}.summary-row:last-child{border-bottom:none}.summary-label{font-weight:700}footer{border-top:1px solid #e5e7eb;padding:14px 20px;display:flex;justify-content:space-between;color:#94a3b8;font-size:11px}.documents-box{margin:18px 0;padding:16px;background:#f8fafc;border:1px solid #dbe2ea;border-radius:10px}.documents-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.document-card{background:#fff;border:1px solid #dbe2ea;border-radius:9px;padding:12px}.document-card-title{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:10px}.document-btn{display:inline-block;padding:9px 12px;border-radius:8px;background:#0f172a;color:#fff;text-decoration:none;font-size:13px;font-weight:600}.email-box{margin-top:18px;padding:18px}.email-box p{margin:8px 0 14px}.email-btn{margin-top:4px}.consultant-box{margin-top:12px}.contact-card{display:flex;align-items:center;gap:14px;margin:12px 0;padding:15px;background:#fff;border:1px solid #dbe2ea;border-radius:14px;box-shadow:0 3px 10px rgba(15,23,42,.06)}.contact-card:hover{border-color:#94a3b8;box-shadow:0 5px 14px rgba(15,23,42,.09)}.contact-icon{width:44px;height:44px;flex:0 0 44px;display:flex;align-items:center;justify-content:center;border-radius:12px;background:#f1f5f9;font-size:21px}.contact-content{flex:1;min-width:0}.contact-title{font-weight:700;font-size:14px;line-height:1.35}.contact-name{margin-top:3px;font-weight:600;font-size:14px;color:#334155}.contact-phone{margin-top:2px;font-size:13px;color:#64748b}.contact-description{margin-top:4px;font-size:13px;line-height:1.45;color:#64748b}.contact-whatsapp-btn{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;padding:11px 14px;border-radius:10px;background:#166534;color:#fff!important;text-decoration:none;font-size:13px;font-weight:700;transition:.2s}.contact-whatsapp-btn:hover{transform:translateY(-1px);filter:brightness(1.05)}.contact-card-neutral{background:#f8fafc}.document-shortcut{border-left:4px solid #0f172a}@media(max-width:600px){.assistant{padding:18px}.menu-grid,.buttons{grid-template-columns:1fr}.header{padding:17px}.header h1{font-size:18px}}@media(max-width:650px){.documents-grid{grid-template-columns:1fr}}@media(max-width:640px){.contact-card{align-items:flex-start;flex-wrap:wrap}.contact-content{flex:1 1 calc(100% - 58px)}.contact-whatsapp-btn{width:100%;margin-left:58px}}
+
+/* =====================================================
+   BOTÕES DE APLICATIVOS
+   ===================================================== */
+.app-download-box {
+  margin: 15px 0;
+  padding: 16px;
+  background: #f8fafc;
+  border: 1px solid #dbe2ea;
+  border-radius: 10px;
+}
+
+.app-download-box > strong {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.app-download-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.app-store-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 58px;
+  padding: 10px 13px;
+  border-radius: 10px;
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.app-store-btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+
+.app-store-play {
+  background: #166534;
+}
+
+.app-store-apple {
+  background: #0f172a;
+}
+
+.app-btn-icon {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.app-store-btn small,
+.app-store-btn strong {
+  display: block;
+}
+
+.app-store-btn small {
+  font-size: 10px;
+  opacity: 0.85;
+  margin-bottom: 2px;
+}
+
+.app-store-btn strong {
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .app-download-grid {
+    grid-template-columns: 1fr;
+  }
+}
